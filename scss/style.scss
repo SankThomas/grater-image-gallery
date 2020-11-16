@@ -2,6 +2,16 @@
 
 $dark-orange: #ba3d07;
 
+::selection {
+  background-color: $dark-orange;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: $dark-orange;
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
