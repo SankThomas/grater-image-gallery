@@ -7,10 +7,7 @@ window.onscroll = function () {
 }
 
 function showHeader() {
-  if (
-    document.body.scrollTop > 100 ||
-    document.documentElement.scrollTop > 100
-  ) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     header.style.backgroundColor = '#fff'
     scrollButton.classList.add('show')
   } else {
