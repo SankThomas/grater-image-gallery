@@ -21,4 +21,4 @@ All images are from https://pexels.com. All you need to do is search 'vintage'. 
 12. Phone [https://www.pexels.com/photo/apple-device-cellphone-communication-device-594452/]
 
 Website is [https://grater-image-gallery.netlify.app]
-YouTube link coming soon.
+YouTube video link https://www.youtube.com/channel/UCeDWS6WbftXe9-6QQFMrKAQ/playlists
