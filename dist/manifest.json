@@ -1,0 +1,25 @@
+{
+  "short_name": "Grater",
+  "name": "Grater Image Gallery",
+  "icons": [
+    {
+      "src": "./images/logo_48.png",
+      "sizes": "47x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/logo_196.png",
+      "sizes": "193x196",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo_512.png",
+      "sizes": "505x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ba3d07",
+  "background_color": "#f1f1f1"
+}
