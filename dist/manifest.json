@@ -3,11 +3,6 @@
   "name": "Grater Image Gallery",
   "icons": [
     {
-      "src": "./images/logo_48.png",
-      "sizes": "48x48",
-      "type": "image/x-icon"
-    },
-    {
       "src": "./images/logo_144.png",
       "sizes": "144x144",
       "type": "image/png"

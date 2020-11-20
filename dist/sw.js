@@ -36,7 +36,6 @@ self.addEventListener('install', (e) => {
 self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.match(e.request).then((resp) => {
-      // Get from network if unavailable in cache, and save to cache for later
       return (
         resp ||
         fetch(e.request).then((response) => {
@@ -47,7 +46,7 @@ self.addEventListener('fetch', (e) => {
               return response
             })
             .catch(() => {
-              return caches.match('/dist/offline.html')
+              return caches.match('./offline.html')
             })
         })
       )
